@@ -6,6 +6,9 @@ body {
   color: #D7D344;
 }
 
+.news {
+  color: #D7D344;
+}
 .row {
   width: 100%;
 }
@@ -84,5 +87,7 @@ a:active {
 .icon img {
   width: 100%;
 }
+
+
 
 

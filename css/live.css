@@ -3,5 +3,75 @@
   background-size: 100%;
   opacity: 0.8;
   height: 100vh;
-  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
+
+
+.gigs_card {
+  /*background-color: green;*/
+  margin: 5% 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.live-shows-box {
+  display: flex;
+  /*background-color: purple;*/
+  justify-content: center;
+  width: 100%;
+  margin: 10% 0;
+  padding-right: 4%;
+
+}
+
+.live-shows-text {
+  width: 150px;
+  text-align: center;
+
+}
+
+.live-text-box {
+  /*background-color: blue;*/
+  display:  flex;
+  font-size: 24px;
+  flex-direction: row;
+}
+
+.row {
+  display:  flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.date-box{
+  /*background-color: yellow;*/
+}
+.date {
+  /*background-color: red;*/
+  margin: 5px 0;
+}
+
+.venue-box{
+  /*background-color: blue;*/
+}
+.venue {
+  /*background-color: purple;*/
+  margin: 5px 0;
+
+}
+
+.tickets-box{
+ /* background-color: blueviolet;*/
+}
+.tickets {
+  /*background-color: green;*/
+  margin: 5px 0;
+}
+
