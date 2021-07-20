@@ -1,26 +1,20 @@
 /*@import parallax.css;*/
 @import "live.css";
+@import "landing.css";
 
 body {
   font-family: 'Palanquin', sans-serif;
   color: #D7D344;
 }
 
-.news {
-  color: #D7D344;
+h1 {
+  font-size: 48px;
 }
+
 .row {
   width: 100%;
 }
 
-.hero-bg {
-  /*background-image: url('../images/band1_red_filter.png');*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/band1_red_filter.png');
-  background-size: 100%;
-  opacity: 0.8;
-  height: 100vh;
-  z-index: 2;
-}
 
 .container {
   width: 100%;
@@ -29,7 +23,6 @@ body {
 /* Header */
 
 .header {
-/*  height:  80px;*/
   width:  100%;
   background-color: black;
   display: flex;
