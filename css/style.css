@@ -1,24 +1,24 @@
 /*@import parallax.css;*/
 @import "live.css";
 @import "landing.css";
+@import "music.css";
+@import "biog.css";
 
 body {
-  font-family: 'Palanquin', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
   color: #D7D344;
 }
 
 h1 {
   font-size: 48px;
+  font-family: 'Palanquin', sans-serif;
 }
 
-.row {
-  width: 100%;
+h2 {
+  font-size: 48px;
+  font-family: 'Palanquin', sans-serif;
 }
 
-
-.container {
-  width: 100%;
-}
 
 /* Header */
 
