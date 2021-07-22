@@ -1,9 +1,24 @@
-.biog_bg{
+/*.biog_bg{
   background-image: url('../images/band_colour1.jpegg');
   background-size: 100%;
-  /*opacity: 0.8;*/
+  opacity: 0.8;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-content: center;
+}*/
+
+.container{
+/*height: 100vh;*/
+/*width:  cover;*/
+background-color: green;
+}
+
+
+.carousel-item {
+  height:  100vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size:  cover;
+  background-size:  cover;
 }
