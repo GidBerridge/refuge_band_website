@@ -8,16 +8,49 @@
   z-index: 1;
 }
 
-.biog-popup {
-  text-decoration: none;
+
+.biog-bg {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeIn 7s;
+  -webkit-animation: fadeIn 7s;
+  -moz-animation: fadeIn 7s;
+  -o-animation: fadeIn 7s;
+  -ms-animation: fadeIn 7s;
 }
+
 
 .biog-text {
   margin:  20%;
   font-size: 1.5em;
-
 }
 
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
 
 .carousel-caption {
     position: absolute;
@@ -33,11 +66,6 @@
     text-align:center;
 }
 
-.biog-bg {
-    background-color: rgba(0, 0, 0, 0.4);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    }
+
 
 
