@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Palanquin Dark', sans-serif;
-  color: #D7D344;
+  color: white;
 }
 
 h1 {
@@ -56,14 +56,18 @@ h2 {
 
 /* anchors */
 
-a:link,
+a {
+  text-decoration: none;
+
+}
+.navbar a:link,
 a:visited {
   color: #D7D344;
 }
 
-a:hover,
+.navbar a:hover,
 a:active {
-  text-decoration: none;
+  color: white;
   }
 
  /* Social Media */

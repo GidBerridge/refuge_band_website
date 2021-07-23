@@ -1,7 +1,8 @@
 .live_bg{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/live_1.jpeg');
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/live_1.jpeg');*/
+  background-color: black;
   background-size: 100%;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,6 +15,7 @@
   margin: 5% 0;
   display: flex;
   flex-direction: column;
+  font-size: 30px;
 }
 
 .live-shows-box {
