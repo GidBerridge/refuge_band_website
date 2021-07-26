@@ -4,8 +4,11 @@
 @import "music.css";
 @import "biog.css";
 
+$refuge-yellow: #D7D344;
+
 body {
-  font-family: 'Palanquin Dark', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Palanquin', sans-serif;
   color: white;
 }
 
@@ -30,6 +33,7 @@ h2 {
   align-items: center;
   position: fixed;
   z-index: 100;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo {

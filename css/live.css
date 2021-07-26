@@ -1,6 +1,8 @@
+
+
 .live_bg{
-  /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/live_1.jpeg');*/
-  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/live_1.jpeg');
+  /*background-color: black;*/
   background-size: 100%;
   /*opacity: 0.8;*/
   height: 100vh;
@@ -15,13 +17,12 @@
   margin: 5% 0;
   display: flex;
   flex-direction: column;
-  font-size: 30px;
 }
 
 .live-shows-box {
-  display: flex;
+
   /*background-color: purple;*/
-  justify-content: center;
+
   width: 100%;
   margin: 10% 0;
   padding-right: 4%;
@@ -37,20 +38,10 @@
 .live-text-box {
   /*background-color: blue;*/
   display:  flex;
-  font-size: 24px;
+  font-size: 32px;
   flex-direction: row;
 }
 
-.row {
-  display:  flex;
-  justify-content: space-between;
-  margin: 20px 0;
-}
-
-.break {
-  flex-basis: 100%;
-  height: 0;
-}
 
 .date-box{
   /*background-color: yellow;*/
@@ -67,13 +58,81 @@
   /*background-color: purple;*/
   margin: 5px 0;
 
+
 }
 
 .tickets-box{
  /* background-color: blueviolet;*/
 }
 .tickets {
-  /*background-color: green;*/
+
   margin: 5px 0;
 }
 
+
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between
+  flex-wrap: wrap;
+  background-color: green;
+}
+
+.row {
+  /*display: inline-block;*/
+}
+/* ----- BUTTONS ----- */
+
+.buy {
+  margin: 10%;
+  flex-basis: 35%;
+}
+
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+/*Cards */
+
+.card-product {
+  /*overflow: hidden;*/
+  height: 200px;
+  flex-basis: 65%;
+  /*background: white;*/
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  border: 1px solid #D7D344;
+  border-radius: 5px;
+  color:  white;
+  margin: 10%;
+  box-sizing: border-box;
+}
+
+.card-product img {
+  height: 100%;
+  width: 20%px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 24px;
+  line-height: 1.4;
+ /* opacity: .7;*/
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
