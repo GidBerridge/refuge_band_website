@@ -4,11 +4,10 @@
 @import "music.css";
 @import "biog.css";
 
-$refuge-yellow: #D7D344;
 
 body {
-  /*font-family: 'Roboto', sans-serif;*/
-  font-family: 'Palanquin', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Palanquin', sans-serif;*/
   color: white;
 }
 
@@ -55,7 +54,7 @@ h2 {
 
 .nav-text {
   font-size: 1.3em;
-  margin: 0 50px;
+  /*margin: 0 50px;*/
 }
 
 /* anchors */

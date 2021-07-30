@@ -1,2 +1,8 @@
-const myCarousel = document.querySelector('#myCarousel')
-const carousel = new bootstrap.Carousel(myCarousel)
+
+import Typed from 'typed.js';
+
+var typed = new Typed('.element', {
+  // Waits 1000ms after typing "First"
+  strings: ['First ^1000 sentence.', 'Second sentence.']
+
+});

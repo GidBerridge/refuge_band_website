@@ -14,6 +14,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="index.js"></script>
+
   <title>Refuge Band Official Website</title>
 </head>
 
@@ -31,6 +33,7 @@
         <a href="#live"  class="nav-text">Live</a>
         <a href="#music"  class="nav-text">Music</a>
         <a href="#biog"  class="nav-text">Biog</a>
+        <a href="#contact"  class="nav-text">Contact</a>
       </div>
     </div>
     <div class="col-md-3">
@@ -46,8 +49,21 @@
   <!-- Landing page -->
 
   <section class="hero-bg" id="home">
-    <div class="news col-md-12"><h1>News goes here.</h1>
+
+    <div class="news col-md-12">
+      <div class="element">
+
+        <h1></h1>
+      </div>
     </div>
+    <script src="typed.js"></script>
+<!--       <script>
+      var typed = new Typed('.element', {
+  // Waits 1000ms after typing "First"
+  strings: ['First ^1000 sentence.', 'Second sentence.']
+
+});
+ </script> -->
   </section>
 
 
@@ -55,50 +71,35 @@
 
 
   <section class="live_bg" id="live">
-    <!--
-      <div class="live-shows-box">
-        <div class="live-shows-text"><strong><h2>Refuge Live</h2></strong>
-        </div>
-      </div>
-      <div class="live-text-box">
-        <div class="date-box col-md-4" >
-          <div class="date">Friday 23rd July 2021 7.30 </div>
-          <div class="date">Sunday 22nd August 2021<br><br></div>
-          <div class="date">Saturday 16th October 2021 7.30 </div>
-        </div>
-        <div class="venue-box col-md-5">
-          <div class="venue">Fiddlers Elbow Camden London NW1</div>
-          <div class="venue">Freedom of Mountfitchet Festval<br><br></div>
-          <div class="venue">Camden Assembly London NW1</div>
-        </div>
-        <div class="tickets-box col-md-3">
-          <button class="tickets btn btn-full"><a href="https://camdenrocks.seetickets.com/event/albion-more-camden-rocks-presents/fiddler-s-elbow/1839238" target="_blank">Buy tickets</a></button>
-          <button class="tickets btn btn-full"><a href=" https://bit.ly/3hyN6rW" target="_blank">Buy tickets (day)</a><br><a href=" https://bit.ly/3e8zjWZ" target="_blank">Buy tickets (weekend)</a></button>
-          <button class="tickets btn btn-full"><a href="#">Buy tickets</a></button>
-        </div>
-      </div>
-    </div> -->
-  <div class="container col-md-10">
+
+  <div class="container p-3">
     <div class="row">
-      <div class="card-product">
+      <div class="card-product col-xs-10 col-md-8">
         <img src="images/mountfitchet.jpeg" />
         <div class="card-product-infos">
           <h2>Freedom of Mountfitchet Festval</h2>
           <p><strong>Sunday 22nd August 2021</strong></p>
         </div>
       </div>
-      <button type="button" class="btn btn-warning buy">Buy Tickets</button>
+      <div class="btn-box col-xs-2 col-md-4">
+        <a href="https://bit.ly/3hyN6rW" target="_blank" class="btn btn-warning btn-buy">Buy Tickets Day</a>
+        <a href="https://bit.ly/3e8zjWZ" target="_blank" class="btn btn-warning btn-buy">Buy Tickets Weeekend</a>
       </div>
-      <div class="break"></div>
+    </div>
+
     <div class="row">
-      <div class="card-product">
+      <div class="card-product col-xs-10 col-md-8">
         <img src="images/camden_assembly.jpeg" />
         <div class="card-product-infos">
           <h2>Camden Assembly London NW1</h2>
           <p><strong>Saturday 16th October 2021 7.30 </strong></p>
         </div>
       </div>
+      <div class="btn-box col-xs-2 col-md-4">
+        <button type="button" class="btn btn-warning buy"><a href="" target="_blank">Tickets not yet on sale</a></button>
+      </div>
     </div>
+
   </div>
 
 
@@ -111,17 +112,19 @@
 <!-- Music Page -->
 
 <section class="music_bg" id="music">
-  <div class="music-card col-md-8">
-    <div class="music-title"><h2>Listen</h2></div>
-    <div class="tune"><a href="https://soundcloud.app.goo.gl/pgNDS" target="_blank" class="music-text">Release The Pressure</a></div>
-    <div class="tune"><a href="https://soundcloud.app.goo.gl/aK28K" target="_blank" class="music-text">Low Winter's Sun</a></div>
-    <div class="tune"><a href="https://soundcloud.app.goo.gl/HQMsV" target="_blank" class="music-text">Better Days</a></div>
-    <div class="tune"><a href="https://soundcloud.app.goo.gl/B3k5z" target="_blank" class="music-text">In too deep</a></div>
-    <!-- <div class="tune"><a href="https://soundcloud.app.goo.gl/pgNDS" class="music-text">Release The Pressure</a></div> -->
-  </div>
-  <div class="youtube-card"><h2>Watch</h2>
-    <div ><iframe width="392" height="220" src="https://www.youtube.com/embed/BCEk1AYTR8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <div><iframe width="392" height="220" src="https://www.youtube.com/embed/d1HNnmfCU_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+  <div class="container p-3">
+    <div class="row">
+      <div class="music-title"><h2>Media</h2></div>
+    </div>
+    <div class="row">
+      <div class="music-card col-xs-12 col-md-6">
+        <iframe width="100%" height="350" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1293611563&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/officialrefuge" title="officialrefuge" target="_blank" style="color: #cccccc; text-decoration: none;">officialrefuge</a> · <a href="https://soundcloud.com/officialrefuge/sets/illusions-of-grandeur-1" title="ILLUSIONS OF GRANDEUR" target="_blank" style="color: #cccccc; text-decoration: none;">ILLUSIONS OF GRANDEUR</a></div>
+      </div>
+      <div class="youtube-card col-xs-12 col-md-6">
+        <div ><iframe width="392" height="220" src="https://www.youtube.com/embed/BCEk1AYTR8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div><iframe width="392" height="220" src="https://www.youtube.com/embed/d1HNnmfCU_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -230,6 +233,9 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
+
+
 </body>
 </html>
 
