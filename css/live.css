@@ -26,13 +26,17 @@
 
 .btn-buy {
   margin: 10%;
-  height: 60px;
-  width: 120px;
 }
 
-a:link, a:hover {
-        color: black;
-      }
+.btn-buy:link,
+.btn-buy:visited {
+  color: black;
+}
+
+.btn-buy:hover,
+.btn-buy:active {
+  color: #161dff;
+  }
 
 
 

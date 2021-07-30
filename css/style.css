@@ -64,12 +64,12 @@ a {
 
 }
 .navbar a:link,
-a:visited {
+.navbar a:visited {
   color: #D7D344;
 }
 
 .navbar a:hover,
-a:active {
+.navbar a:active {
   color: white;
   }
 
