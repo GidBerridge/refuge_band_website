@@ -69,9 +69,15 @@
 }
 
 .card-product img {
-  height: 100%;
-  width: 20%px;
+  max-width: 30%;
+  height: auto;
   object-fit: cover;
+}
+
+.img-container {
+  /*box-sizing: border-box;*/
+/*  max-width: 30%;
+  height: auto;*/
 }
 
 .card-product h2 {
@@ -83,7 +89,7 @@
 .card-product p {
   font-size: 24px;
   line-height: 1.4;
- /* opacity: .7;*/
+  /*opacity: .7;*/
   margin-bottom: 0;
   margin-top: 8px;
 }
