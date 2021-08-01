@@ -4,14 +4,16 @@
   opacity: 0.8;
   height: 100vh;
   display: flex;
+  background-repeat: no-repeat;
 }
 
 .news {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
-  margin-bottom: 5%;
-
+  /*justify-content: center;*/
+  margin: 5%;
+  /*max-width: 80%;*/
+  /*text-align: center;*/
 }
 
 
