@@ -2,7 +2,6 @@
   background-image: url('../images/band_colour1.jpeg');
   background-size: 100%;
   opacity: 0.8;
-  height: 100vh;
   display: flex;
   background-repeat: no-repeat;
 }
@@ -20,4 +19,9 @@
 .typed {
 }
 
+@media (min-width: 576px) {
+  .hero-bg {
+    height: 100vh;}
+  }
+}
 
