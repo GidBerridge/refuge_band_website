@@ -22,6 +22,16 @@ h2 {
 }
 
 
+/*black bg*/
+
+.bg_color{
+    background-color: black;
+    height: 100vh;
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+
+
 /* Header */
 
 .header {
