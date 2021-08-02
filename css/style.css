@@ -8,12 +8,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   /*font-family: 'Palanquin', sans-serif;*/
-  color: white;
+  color: black
 }
 
 h1 {
   font-size: 48px;
   font-family: 'Palanquin', sans-serif;
+  color: white;
 }
 
 h2 {
@@ -24,12 +25,13 @@ h2 {
 
 /*black bg*/
 
-.bg_color{
+/*.bg_color{
     background-color: black;
     height: 100vh;
-    /*display: flex;*/
-    /*align-items: center;*/
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
 
 
 /* Header */
