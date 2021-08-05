@@ -29,6 +29,7 @@
   flex-direction: column;
   justify-content: center;
   width: 40%;
+  margin: 2%;
 }
 
 .youtube-card {
@@ -38,6 +39,7 @@
   justify-content: center;
   align-items: center;
   width: 40%;
+  margin: 2%;
 }
 
 .container {
@@ -46,9 +48,12 @@
   justify-content: space-evenly;
 }
 
-.row {
+.media-box {
   display:  flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-basis: 100%;
+  padding: 2em;
 }
 
 h2 {
@@ -56,13 +61,20 @@ h2 {
 }
 
 @media (orientation: landscape) {
-  .row {
+  .media-box  {
     flex-direction: row;
   }
 }
 
 @media (orientation: portrait) {
-  .row {
+  .media-box  {
     flex-direction: column;
   }
 }
+
+@media (max-width: 767px) {
+    .media-box  {
+    flex-direction: column;
+  }
+}
+
