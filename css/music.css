@@ -55,4 +55,14 @@ h2 {
   color: #D7D344;;
 }
 
+@media (orientation: landscape) {
+  .row {
+    flex-direction: row;
+  }
+}
 
+@media (orientation: portrait) {
+  .row {
+    flex-direction: column;
+  }
+}
