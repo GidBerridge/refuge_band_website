@@ -22,11 +22,6 @@
 }
 
 
-.biog-text {
-  margin:  20%;
-  font-size: 1.8em;
-}
-
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -64,6 +59,21 @@
     /*display:table-cell;*/
     vertical-align: middle;
     text-align:center;
+}
+
+.biog-text {
+  position: absolute;
+  bottom: 15%;
+  margin: 0 20%;
+  font-size: 1.8em;
+}
+
+.band-member{
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 7em;
+  top: 15%;
+  left: 12%;
 }
 
 footer {
