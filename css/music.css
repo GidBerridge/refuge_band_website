@@ -1,8 +1,6 @@
 .music_bg{
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/band1.JPG');
-  /*background-color: rgb(200, 200, 200);*/
   background-size: 100%;
-  /*opacity: 0.8;*/
   height: 100vh;
   display: flex;
   justify-content: space-between;
@@ -69,12 +67,19 @@ h2 {
 @media (orientation: portrait) {
   .media-box  {
     flex-direction: column;
+    align-items: center;
+  }
+  .music_bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
   }
 }
+
+@media (orientation: portrait) {
 
 @media (max-width: 767px) {
     .media-box  {
     flex-direction: column;
+    align-items: center;
   }
 }
 
