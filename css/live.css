@@ -7,7 +7,7 @@
   justify-content: center;
   align-content: center;
   background-repeat: no-repeat;
-  height: 100vh;
+
 }
 
 
@@ -106,6 +106,12 @@
 @media (max-width: 767px) {
   .container {
     flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .live_bg {
+    height: 100vh;
   }
 }
 
