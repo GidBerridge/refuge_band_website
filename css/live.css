@@ -93,7 +93,7 @@
   padding: 16px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .live_bg {
     background-image: none;
     background-color: black;
