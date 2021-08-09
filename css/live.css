@@ -10,7 +10,9 @@
 
 }
 
-
+.row {
+  justify-content: center;
+}
 
 .container {
   width: 80%;
