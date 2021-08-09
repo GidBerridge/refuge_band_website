@@ -59,11 +59,13 @@ h2 {
   color: #D7D344;;
 }
 
-@media (orientation: landscape) {
+/* media queries */
+
+/*@media (orientation: landscape) {
   .media-box  {
     flex-direction: row;
   }
-}
+}*/
 
 @media (orientation: portrait) {
   .media-box  {
@@ -75,12 +77,17 @@ h2 {
   }
 }
 
-@media (orientation: portrait) {
+
 
 @media (max-width: 767px) {
     .media-box  {
     flex-direction: column;
     align-items: center;
+  }
+
+  .music_bg {
+    background-image: none;
+    background-color: black;
   }
 }
 

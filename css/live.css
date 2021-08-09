@@ -108,11 +108,7 @@
     }
   }
 
-/*@media (max-width: 767px) {
-  .container {
-    flex-direction: column;
-  }
-}*/
+
 
 @media (min-width: 768px) {
   .live_bg {
