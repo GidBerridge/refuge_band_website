@@ -19,7 +19,7 @@
   display: flex;
   flex-wrap: wrap;
   /*background-color: green;*/
-  /*align-content: center;*/
+  align-content: center;
   justify-content: center;
 }
 
