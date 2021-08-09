@@ -1,13 +1,13 @@
 
 .live_bg{
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/live_1.jpeg');
-  /*background-color: black;*/
   background-size: 100%;
   /*opacity: 0.8;*/
   display: flex;
   justify-content: center;
   align-content: center;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 
@@ -93,15 +93,13 @@
   padding: 16px;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .live_bg {
-    height: 100vh;}
+    background-image: none;
+    background-color: black;
+    }
   }
-}
 
-@media (min-width: 576px) {
-  .live_bg {
-    background-repeat: no-repeat;
-  }
-}
+
+
 
