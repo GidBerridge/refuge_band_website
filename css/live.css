@@ -13,11 +13,12 @@
 
 
 .container {
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
-  /*background-color: green;*/
+  background-color: green;
   align-content: center;
-  justify-content: center;
+  /*justify-content: space-between;*/
 }
 
 
@@ -43,7 +44,8 @@
   display:  flex;
   align-items: center;
   justify-content: center;
-
+  background-color: purple;
+  margin:  auto;
 }
 
 /*Cards */
@@ -56,7 +58,8 @@
 .card-product {
   overflow: hidden;
   height: 180px;
-  flex-basis: 65%;
+  /*flex-basis: 65%;*/
+  max-width: 600px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
