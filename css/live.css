@@ -93,6 +93,9 @@
   padding: 16px;
 }
 
+
+/* media queries */
+
 @media (max-width: 767px) {
   .live_bg {
     background-image: none;
@@ -100,6 +103,9 @@
     }
   }
 
-
-
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+}
 
