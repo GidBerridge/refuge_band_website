@@ -35,12 +35,9 @@
 
 37
 
-@media all and (orientation:portrait) {
+@media (orientation:portrait) {
   .hero-bg{
     background-image: none;
-  }
-  .portrait-bg{
-    display: flex;
   }
 }
 
