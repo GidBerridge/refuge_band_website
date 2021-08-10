@@ -35,10 +35,5 @@
 
 37
 
-@media (orientation: portrait)
- {
-  .portrait-bg{
-    display:  flex;
-  }
-}
+
 
