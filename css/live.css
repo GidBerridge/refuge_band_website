@@ -2,7 +2,6 @@
 .live_bg{
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/live_1.jpeg');
   background-size: 100%;
-  /*opacity: 0.8;*/
   display: flex;
   justify-content: center;
   align-content: center;
@@ -60,7 +59,6 @@
 .card-product {
   overflow: hidden;
   height: 180px;
-  /*flex-basis: 65%;*/
   max-width: 500px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
@@ -89,7 +87,6 @@
 .card-product p {
   font-size: 24px;
   line-height: 1.4;
-  /*opacity: .7;*/
   margin-bottom: 0;
   margin-top: 8px;
 }

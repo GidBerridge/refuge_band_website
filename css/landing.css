@@ -9,12 +9,20 @@
 .news {
   display: flex;
   align-items: flex-end;
-  /*justify-content: center;*/
   margin: 5%;
-  /*max-width: 80%;*/
-  /*text-align: center;*/
 }
 
+.portrait-bg{
+  position: fixed;
+  background-color: black;
+  display:  none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  z-index: 10000;
+  color: #D7D344;;
+}
 
 .typed {
 }
@@ -22,6 +30,12 @@
 @media (min-width: 576px) {
   .hero-bg {
     height: 100vh;}
+  }
+}
+
+@media (orientation: portrait) {
+  .portrait-bg{
+    display: flex;
   }
 }
 
