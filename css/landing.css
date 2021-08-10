@@ -28,17 +28,17 @@
 }
 
 @media (min-width: 577px) {
-  .hero-bg {
+  .hero-bg{
     height: 100vh;}
   }
 }
 
 37
 
-@media (max-width: 576px)
+@media (orientation: portrait)
  {
-  .hero-bg{
-    background-image: none;
+  .portrait-bg{
+    display:  flex;
   }
 }
 
