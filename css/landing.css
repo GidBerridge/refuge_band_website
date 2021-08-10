@@ -33,7 +33,7 @@
   }
 }
 
-@media (max-width: 577px) {
+ @media screen and (orientation:portrait) {
   .portrait-bg{
     display: flex;
   }
