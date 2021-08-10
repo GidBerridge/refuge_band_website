@@ -15,7 +15,7 @@
 .portrait-bg{
   position: fixed;
   background-color: black;
-  display:  flex;
+  display:  none;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -33,7 +33,7 @@
   }
 }
 
-@media (orientation: portrait) {
+@media (max-width: 577px) {
   .portrait-bg{
     display: flex;
   }
