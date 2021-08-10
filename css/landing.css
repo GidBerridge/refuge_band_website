@@ -35,7 +35,7 @@
 
 37
 
-@media screen and (orientation:portrait) {
+@media screen and (orientation: portrait) {
   .hero-bg{
     background-image: none;
   }
