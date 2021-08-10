@@ -15,7 +15,7 @@
 .portrait-bg{
   position: fixed;
   background-color: black;
-  display:  none;
+  display:  flex;
   justify-content: center;
   align-items: center;
   height: 100%;
