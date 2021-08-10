@@ -50,7 +50,6 @@
 .media-box {
   display:  flex;
   justify-content: space-between;
-  flex-direction: column;
   flex-basis: 100%;
   padding: 2em;
 }
@@ -61,30 +60,11 @@ h2 {
 
 /* media queries */
 
-/*@media (orientation: landscape) {
-  .media-box  {
-    flex-direction: row;
-  }
-}*/
-
-@media (orientation: portrait) {
-  .media-box  {
-    flex-direction: column;
-    align-items: center;
-  }
-  .music_bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
-  }
-}
-
-
-
 @media (max-width: 767px) {
-    .media-box  {
+  .media-box  {
     flex-direction: column;
     align-items: center;
   }
-
   .music_bg {
     background-image: none;
     background-color: black;
