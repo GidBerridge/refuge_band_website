@@ -27,7 +27,7 @@
 .typed {
 }
 
-@media (min-width: 576px) {
+@media (min-width: 577px) {
   .hero-bg {
     height: 100vh;}
   }
@@ -35,7 +35,8 @@
 
 37
 
-@media screen and (orientation: portrait) {
+@media (max-width: 576px)
+ {
   .hero-bg{
     background-image: none;
   }
