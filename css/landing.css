@@ -36,6 +36,9 @@
 37
 
 @media all and (orientation:portrait) {
+  .hero-bg{
+    background-image: none;
+  }
   .portrait-bg{
     display: flex;
   }
