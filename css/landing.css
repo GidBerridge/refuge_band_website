@@ -33,9 +33,9 @@
   }
 }
 
- @media screen and (orientation:portrait) {
+/* @media screen and (orientation:portrait) {
   .portrait-bg{
     display: flex;
   }
-}
+}*/
 
