@@ -37,13 +37,18 @@
   justify-content: center;
   align-items: center;
   width: 40%;
-  margin: 2%;
+  margin: 4% 2%;
+}
+
+.youtube-vid {
+  margin: 5% 0;
 }
 
 .container {
   /*background-color: purple;*/
   display:  flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .media-box {
