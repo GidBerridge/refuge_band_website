@@ -61,7 +61,7 @@
     text-align:center;
 }
 
-.biog-text {
+.biog-text, .biog-text-member {
   position: absolute;
   bottom: 15%;
   margin: 0 20%;
@@ -90,7 +90,7 @@ footer {
 }
 
 @media (max-width: 767px) {
-  .biog-text {
+  .biog-text-member {
     font-size: 1.3em;
   }
   .band-member{
