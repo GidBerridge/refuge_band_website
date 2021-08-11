@@ -30,11 +30,15 @@
 
 @media (min-width: 577px) {
   .hero-bg{
-    height: 100vh;}
+    height: 100vh;
   }
 }
 
-
+@media (max-width: 576px){
+  .hero-bg{
+    background-attachment: fixed;
+  }
+}
 
 
 
