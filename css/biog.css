@@ -93,5 +93,7 @@ footer {
   .biog-text {
     font-size: 1.3em;
   }
-
-
+  .band-member{
+    color: #D78A44;
+  }
+}
