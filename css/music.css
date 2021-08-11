@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
