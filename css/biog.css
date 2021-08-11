@@ -89,6 +89,9 @@ footer {
   padding: 10px;
 }
 
-
+@media (max-width: 767px) {
+  .biog-text {
+    font-size: 1.3em;
+  }
 
 
