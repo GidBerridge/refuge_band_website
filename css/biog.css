@@ -100,4 +100,7 @@ footer {
     top: 5%;
     left: 5%;
   }
+  .long-name{
+    font-size: 4em;
+  }
 }
