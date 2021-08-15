@@ -1,0 +1,14 @@
+.container {
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: green;*/
+  align-content: center;
+  justify-content: center;
+}
+
+/*.container {
+  display:  flex;
+  justify-content: space-evenly;
+  align-items: center;
+}*/

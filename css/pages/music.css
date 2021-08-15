@@ -1,0 +1,48 @@
+.music_bg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/band1.JPG');
+  background-size: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.music-title {
+  display: flex;
+  /*background-color: purple;*/
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.music-card {
+  /*background-color: green;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin: 2%;
+}
+
+.youtube-card {
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: 4% 2%;
+}
+
+.youtube-vid {
+  margin: 5% 0;
+}
+
+.media-box {
+  display:  flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+  padding: 2em;
+  margin-top: 10%;
+}
+
