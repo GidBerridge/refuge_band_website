@@ -1,14 +1,24 @@
-/*@import parallax.css;*/
-@import "live.css";
-@import "landing.css";
-@import "music.css";
-@import "biog.css";
+@import "pages/live.css";
+@import "pages/landing.css";
+@import "pages/music.css";
+@import "pages/biog.css";
 
+@import "components/container.css";
+@import "components/buttons.css";
+@import "components/cards.css";
+@import "components/header.css";
+@import "components/social.css";
+@import "components/media-queries.css";
 
 body {
   font-family: 'Roboto', sans-serif;
   /*font-family: 'Palanquin', sans-serif;*/
   background-color: black;
+}
+
+.row {
+  justify-content: space-evenly;
+  flex-basis: 100%;
 }
 
 h1 {
@@ -20,57 +30,7 @@ h1 {
 h2 {
   font-size: 48px;
   font-family: 'Palanquin', sans-serif;
-}
-
-
-/*black bg*/
-
-/*.bg_color{
-    background-color: black;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
-
-
-/* Header */
-
-.header {
-  width:  100%;
-  background-color: black;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  position: fixed;
-  z-index: 100;
-  font-family: 'Roboto', sans-serif;
-}
-
-.logo {
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  margin: 0.5em;
-  /*background-color: blue;   */
-}
-
-.logo img {
-  width: 100%;
-  height: auto;
-}
- /* Navbar */
-
-.navbar {
-  display :flex;
-  justify-content: space-evenly;
-  align-items: center;
-
-}
-
-.nav-text {
-  font-size: 1.3em;
-  /*margin: 0 50px;*/
+  color: #D7D344;
 }
 
 /* anchors */
@@ -89,38 +49,5 @@ a {
   color: white;
   }
 
- /* Social Media */
-
-.social {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.icon {
-  width: 30px;
-}
-
-.icon img {
-  width: 100%;
-}
-
-@media (max-width: 575px) {
-  .navbar {
-    display: none;
-  }
-}
 
 
-@media (max-width: 575px) {
-  h1 {
-    font-size: 32px;
-  }
-}
-
-
-@media (orientation: portrait)
- {
-  .portrait-bg{
-    display:  flex;
-  }
-}
