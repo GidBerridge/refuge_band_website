@@ -53,8 +53,7 @@
 
 /* Orientation portrait */
 
-@media (orientation: portrait)
- {
+@media (orientation: portrait){
   .portrait-bg{
     display:  flex;
   }
