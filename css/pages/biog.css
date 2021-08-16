@@ -89,22 +89,4 @@ footer {
   padding: 10px;
 }
 
-@media (max-width: 767px) {
-  .biog-text-member {
-    font-size: 1.3em;
-  }
-  .band-member, .long-name{
-    color: #D78A44;
-    opacity: 0.8;
-    position: absolute;
-  }
-  .band-member{
-    top: 5%;
-    left: 5%;
-  }
-  .long-name{
-    font-size: 4em;
-    top: 2%;
-    left: 2%;
-  }
-}
+
