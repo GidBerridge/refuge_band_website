@@ -1,0 +1,126 @@
+/*@import parallax.css;*/
+@import "pages/live2.css";
+@import "pages/landing2.css";
+@import "pages/music2.css";
+@import "pages/biog2.css";
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Palanquin', sans-serif;*/
+  background-color: black;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'Palanquin', sans-serif;
+  color: white;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: 'Palanquin', sans-serif;
+}
+
+
+/*black bg*/
+
+/*.bg_color{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
+/* Header */
+
+.header {
+  width:  100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  margin: 0.5em;
+  /*background-color: blue;   */
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+ /* Navbar */
+
+.navbar {
+  display :flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.nav-text {
+  font-size: 1.3em;
+  /*margin: 0 50px;*/
+}
+
+/* anchors */
+
+a {
+  text-decoration: none;
+
+}
+.navbar a:link,
+.navbar a:visited {
+  color: #D7D344;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: white;
+  }
+
+ /* Social Media */
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.icon {
+  width: 30px;
+}
+
+.icon img {
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .navbar {
+    display: none;
+  }
+}
+
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+
+@media (orientation: portrait)
+ {
+  .portrait-bg{
+    display:  flex;
+  }
+}
