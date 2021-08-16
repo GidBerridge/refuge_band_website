@@ -9,6 +9,7 @@
 @import "components/header.css";
 @import "components/social.css";
 @import "components/media-queries.css";
+@import "components/carousel-img.css";
 
 body {
   font-family: 'Roboto', sans-serif;
