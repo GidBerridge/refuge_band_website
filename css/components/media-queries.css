@@ -16,16 +16,7 @@
   }
 }*/
 
-@media (min-width: 768px){
-  .music_bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/band1.JPG');
-    background-color: none;
-  }
-  .live_bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/live_1.jpeg');
-    background-color: none;
-    }
-}
+
 
 @media (max-width: 767px) {
   .media-box  {
@@ -67,12 +58,23 @@
 
 /* tablets */
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .live_bg {
     height: 100vh;
   }
+}*/
+@media (min-width: 768px){
+  .music_bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/band1.JPG');
+    background-color: none;
+    height: 100vh;
+  }
+  .live_bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/live_1.jpeg');
+    background-color: none;
+    height: 100vh;
+    }
 }
-
 
 /* Laptops */
 @media (min-width: 992px) {
