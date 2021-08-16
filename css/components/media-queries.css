@@ -56,7 +56,7 @@
 /* Laptops */
 @media (min-width: 992px) {
   .hero-bg, .live_bg, .music_bg  {
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
   }
 }
 
