@@ -61,17 +61,19 @@
 
 /* tablets */
 
-
-
-
-/* Laptops */
-
 @media (min-width: 768px) {
   .live_bg {
     height: 100vh;
   }
 }
 
+
+/* Laptops */
+@media (min-width: 992px) {
+  .hero-bg, .live_bg, .music_bg  {
+    background-attachment: fixed;
+  }
+}
 
 
 
