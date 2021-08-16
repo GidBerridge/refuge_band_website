@@ -10,4 +10,120 @@
 }
 
 
+/* old version
+
+
+/*.live_bg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/live_1.jpeg');
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}*/
+
+.row {
+  justify-content: space-evenly;
+}
+
+.container {
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: green;*/
+  align-content: center;
+  justify-content: center;
+}
+
+
+/* ----- BUTTONS ----- */
+
+.btn-buy {
+  margin: 10%;
+}
+
+.btn-buy:link,
+.btn-buy:visited {
+  color: black;
+}
+
+.btn-buy:hover,
+.btn-buy:active {
+  color: #161dff;
+  }
+
+
+
+.btn-box {
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  /*background-color: purple;*/
+  margin:  auto;
+}
+
+/*Cards */
+
+
+.row {
+  flex-basis: 100%;
+}
+
+.card-product {
+  overflow: hidden;
+  height: 180px;
+  max-width: 500px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  border: 1px solid #D7D344;
+  border-radius: 5px;
+  color:  white;
+  box-sizing: border-box;
+  margin: 3% 0;
+}
+
+.card-product img {
+  max-width: 30%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+.card-product h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-product p {
+  font-size: 24px;
+  line-height: 1.4;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+
+/* media queries */
+
+@media (max-width: 767px) {
+  .live_bg {
+    background-image: none;
+    background-color: black;
+    }
+  }
+
+
+@media (min-width: 768px) {
+  .live_bg {
+    height: 100vh;
+  }
+}
 
