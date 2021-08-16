@@ -1,18 +1,3 @@
-.live_bg{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/live_1.jpeg');
-  background-size: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  background-repeat: no-repeat;
-
-  /*height: 100vh;*/
-}
-
-
-/* old version
-
-
 /*.live_bg{
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/live_1.jpeg');
   background-size: 100%;
@@ -20,9 +5,24 @@
   justify-content: center;
   align-content: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
 
 }*/
+
+
+
+/* old version*/
+
+
+.live_bg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/live_1.jpeg');
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+
+}
 
 .row {
   justify-content: space-evenly;
