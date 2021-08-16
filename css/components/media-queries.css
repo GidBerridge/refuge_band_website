@@ -9,7 +9,8 @@
   }
 }
 */
-@media (max-width: 767px) {
+
+/*@media (max-width: 767px) {
   .media-box  {
     flex-direction: column;
     align-items: center;
@@ -22,9 +23,21 @@
     background-image: none;
     background-color: black;
     }
-}
+}*/
 
 @media (max-width: 767px) {
+  .media-box  {
+    flex-direction: column;
+    align-items: center;
+  }
+  .music_bg {
+    background-image: none;
+    background-color: black;
+  }
+  .live_bg {
+    background-image: none;
+    background-color: black;
+  }
   .biog-text-member {
     font-size: 1.3em;
   }
