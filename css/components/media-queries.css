@@ -30,9 +30,7 @@
     top: 2%;
     left: 2%;
   }
-/*  .w-img {
-  width: 100vw;
-  }*/
+
 }
 
 /* tablets */
@@ -51,17 +49,10 @@
 }
 
 /*@media (min-width: 768px) and (max-width: 991px){
-  .w-img {
-    height: 100vh;
-  }
-}*/
+
 
 /* Laptops */
-/*@media (min-width: 992px) {
-    .w-img {
-  width: 100vw;
-  }
-}*/
+
 
 
 
