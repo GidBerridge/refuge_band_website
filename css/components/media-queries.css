@@ -47,6 +47,12 @@
     }
 }
 
+@media (min-width: 768px) and (max-width: 991px){
+    .carousel-item {
+      height: 100%;
+      width: 100%;
+  }
+
 /* Laptops */
 @media (min-width: 992px) {
   .hero-bg, .live_bg, .music_bg  {
