@@ -30,6 +30,9 @@
     top: 2%;
     left: 2%;
   }
+  .w-img {
+  width: 100vw;
+  }
 }
 
 /* tablets */
@@ -47,16 +50,16 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+/*@media (min-width: 768px) and (max-width: 991px){
   .w-img {
     display: none;
   }
-}
+}*/
 
 /* Laptops */
 @media (min-width: 992px) {
-  .hero-bg, .live_bg, .music_bg  {
-    /*background-attachment: fixed;*/
+    .w-img {
+  width: 100vw;
   }
 }
 
