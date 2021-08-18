@@ -57,11 +57,11 @@
 }
 
 
-/* Laptops
+ Laptops
 
 /*@media (min-width: 992px){
-  .tablet {
-    display: none;
+  .phone-width{
+    width: 100vw;
   }
 }*/
 
