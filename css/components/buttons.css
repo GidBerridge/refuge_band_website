@@ -1,5 +1,5 @@
 .btn-buy {
-  margin: 10%;
+  margin: 4%;
 }
 
 .btn-buy:link,
@@ -14,8 +14,7 @@
 
 .btn-box {
   display:  flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   /*background-color: purple;*/
-  margin:  auto;
+  flex-basis:  100%;
 }

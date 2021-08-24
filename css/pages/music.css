@@ -12,7 +12,7 @@
   display: flex;
   /*background-color: purple;*/
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 20%;
 }
 
 .music-card {
@@ -20,29 +20,36 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
-  margin: 2%;
+  margin-bottom: 10%;
 }
 
-.youtube-card {
-  /*background-color: blue;*/
+/*.youtube-card {
+  background-color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 40%;
   margin: 4% 2%;
-}
+}*/
 
 .youtube-vid {
-  margin: 5% 0;
+  margin: 30% 0;
+  border: solid 1px #D7D344;
+}
+
+.tune{
+  text-align: center;
+  padding: 5px 0;
+  width: 100%;
 }
 
 .media-box {
   display:  flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-basis: 100%;
   padding: 2em;
-  margin-top: 10%;
+  flex-direction: column;
+  align-items: center;
 }
 

@@ -15,6 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
   /*font-family: 'Palanquin', sans-serif;*/
   background-color: black;
+  width: 100vw;
 }
 
 .row {
@@ -38,15 +39,14 @@ h2 {
 
 a {
   text-decoration: none;
-
 }
-.navbar a:link,
-.navbar a:visited {
+a:link,
+a:visited {
   color: #D7D344;
 }
 
-.navbar a:hover,
-.navbar a:active {
+a:hover,
+a:active {
   color: white;
   }
 

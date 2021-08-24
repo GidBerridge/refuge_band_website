@@ -1,19 +1,20 @@
 .card-product {
   overflow: hidden;
-  height: 180px;
-  max-width: 500px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  border: 1px solid #D7D344;
+  /*border: 1px solid #D7D344;*/
   border-radius: 5px;
   color:  white;
   box-sizing: border-box;
   margin: 3% 0;
+  text-align: center;
+  justify-content: center;
 }
 
 .card-product img {
-  max-width: 30%;
+  max-width: 120px;
   height: auto;
   object-fit: cover;
 }
@@ -31,7 +32,5 @@
   margin-top: 8px;
 }
 
-.card-product .card-product-infos {
-  padding: 16px;
-}
+
 

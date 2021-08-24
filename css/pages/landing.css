@@ -5,6 +5,7 @@
   display: flex;
   background-repeat: no-repeat;
   height: 100vh;
+  width: cover;
 }
 
 .news {
@@ -13,18 +14,6 @@
   margin: 5%;
 }
 
-.portrait-bg{
-  position: fixed;
-  background-color: black;
-  display:  none;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  z-index: 100000;
-  color: #D7D344;
-}
 
 
 
