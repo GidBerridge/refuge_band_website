@@ -1,26 +1,10 @@
 
 /* phones */
 
-/*@media (max-width: 767px)*/
 
-@media (max-width: 767px) {
-/*  .biog-text-member {
-    font-size: 1.3em;
-  }
-  .band-member, .long-name{
-    color: #D78A44;
-    opacity: 0.8;
-    position: absolute;
-  }
-  .band-member{
-    top: 5%;
-    left: 5%;
-  }
-  .long-name{
-    font-size: 4em;
-    top: 2%;
-    left: 2%;
-  }*/
+
+@media (max-width: 991px) {
+
   .navbar, .carousel, .social{
     display: none;
   }
@@ -34,28 +18,14 @@
 
 }
 
-/* tablets */
+ /*Laptops*/
 
-@media (min-width: 768px){
-.biog-phone{
-  display: none;
+@media (min-width: 992px) {
+  .biog-phone{
+    display: none;
   }
+
 }
-/*  .live_bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/live_1.jpeg');
-    background-color: none;
-    height: 100vh;
-    }*/
-/*}*/
-
-@media (min-width: 768px) and (max-width: 991px){
-  .carousel-item {
-    min-height: 900px;
-}
-
-
- Laptops
-
 
 
 
