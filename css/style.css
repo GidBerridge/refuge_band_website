@@ -2,11 +2,13 @@
 @import "pages/landing.css";
 @import "pages/music.css";
 @import "pages/biog.css";
+@import "pages/phone-biog.css";
 
 @import "components/container.css";
 @import "components/buttons.css";
 @import "components/cards.css";
 @import "components/header.css";
+@import "components/footer.css";
 @import "components/social.css";
 @import "components/media-queries.css";
 @import "components/carousel-img.css";
@@ -29,12 +31,23 @@ h1 {
   color: white;
 }
 
-h2 {
-  font-size: 48px;
+h2, h3 {
   font-family: 'Palanquin', sans-serif;
   color: #D7D344;
 }
 
+h2{
+  font-size: 48px;
+}
+
+/*h3 {
+  font-size: 36px;
+}*/
+
+p {
+  color:  white;
+  font-size: 1.6rem;
+}
 /* anchors */
 
 a {

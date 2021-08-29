@@ -77,17 +77,8 @@
   left: 12%;
 }
 
-footer {
-  width:  100%;
-  background-color: black;
-  display: flex;
-  /*text-align: right;*/
-  justify-content: center;
-  z-index: 100;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
-  padding: 10px;
-}
+
+
 
 
 

@@ -1,7 +1,6 @@
 /* Header */
 
 .header {
-  width:  100%;
   background-color: black;
   display: flex;
   justify-content: space-evenly;
@@ -9,6 +8,7 @@
   position: fixed;
   z-index: 100;
   font-family: 'Roboto', sans-serif;
+  max-width: 100%;
 }
 
 .logo {
@@ -16,7 +16,7 @@
   width: 100%;
   height: auto;
   margin: 0.5em;
-  /*background-color: blue;   */
+  /*background-color: blue;*/
 }
 
 .logo img {

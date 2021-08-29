@@ -1,15 +1,10 @@
-/* Orientation portrait */
-
-/*@media (orientation: portrait){
-  .portrait-bg{
-    display:  flex;
-  }
-}*/
 
 /* phones */
 
+/*@media (max-width: 767px)*/
+
 @media (max-width: 767px) {
-  .biog-text-member {
+/*  .biog-text-member {
     font-size: 1.3em;
   }
   .band-member, .long-name{
@@ -25,21 +20,27 @@
     font-size: 4em;
     top: 2%;
     left: 2%;
-  }
-  .navbar, .carousel{
+  }*/
+  .navbar, .carousel, .social{
     display: none;
+  }
+  .logo {
+    margin:  10px;
+  }
+  .header {
+    justify-content: center;
+    position: absolute;
   }
 
 }
 
 /* tablets */
 
-/*@media (min-width: 768px){
-  .music_bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/band1.JPG');
-    background-color: none;
-    height: 100vh;
-  }*/
+@media (min-width: 768px){
+.biog-phone{
+  display: none;
+  }
+}
 /*  .live_bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/live_1.jpeg');
     background-color: none;
@@ -55,11 +56,7 @@
 
  Laptops
 
-/*@media (min-width: 992px){
-  .phone-width{
-    width: 100vw;
-  }
-}*/
+
 
 
 
