@@ -48,11 +48,12 @@
 }
 
 .carousel-caption {
-    position: absolute;
+    /*position: absolute;*/
     z-index: 1;
-    display:table;
-    width:100%;
-    height:100%;
+    /*display:table;*/
+    margin: auto;
+    font-size: 1.8em;
+
 }
 
 .carousel-caption div {
@@ -62,9 +63,9 @@
 }
 
 .biog-text, .biog-text-member {
-  position: absolute;
-  bottom: 15%;
-  margin: 0 20%;
+  /*position: absolute;*/
+  /*bottom: 15%;*/
+  margin: auto;
   font-size: 1.8em;
 }
 
@@ -76,6 +77,8 @@
   top: 35%;
   left: 12%;
 }
+
+
 
 
 
