@@ -28,7 +28,8 @@ body {
 h1 {
   font-size: 48px;
   font-family: 'Palanquin', sans-serif;
-  color: white;
+  color: #D7D344;
+  text-align:center;
 }
 
 h2, h3 {
