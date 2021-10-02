@@ -19,15 +19,20 @@
 }
 
  /*Laptops*/
-/*
+
 @media (min-width: 992px) {
-  .biog-phone{
-    display: none;
+  .header {
+    justify-content: space-evenly;
+    position: fixed;
   }
+}
 
-}*/
 
-
+@media (min-width: 1200px) {
+  .nav-text {
+    font-size: 1.8em;
+  }
+}
 
 
 
