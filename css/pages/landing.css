@@ -13,15 +13,11 @@
   display: flex;
   justify-content: center;
   margin: 12%;
-  /*border: 1px solid black;*/
   border-radius: 15px;
   background-color: rgba(30, 30, 30, 0.3);
-  /*opacity: 0.2;*/
 }
 
-/*.news-text {
-  opacity: 1;
-}*/
+
 
 
 
