@@ -5,14 +5,23 @@
   display: flex;
   background-repeat: no-repeat;
   height: 100vh;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .news {
   display: flex;
-  align-items: flex-end;
   justify-content: center;
-  margin: 5%;
+  margin: 12%;
+  /*border: 1px solid black;*/
+  border-radius: 15px;
+  background-color: rgba(30, 30, 30, 0.3);
+  /*opacity: 0.2;*/
 }
+
+/*.news-text {
+  opacity: 1;
+}*/
 
 
 
