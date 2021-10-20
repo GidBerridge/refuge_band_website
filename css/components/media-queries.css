@@ -9,7 +9,7 @@
     display: none;
   }
   .logo {
-    margin:  10px;
+    margin:  0.5em auto;
   }
   .header {
     justify-content: center;
