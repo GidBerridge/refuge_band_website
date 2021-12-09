@@ -1,23 +1,24 @@
-@import "pages/live.css";
-@import "pages/landing.css";
-@import "pages/music.css";
-@import "pages/biog.css";
-@import "pages/phone-biog.css";
+@import 'pages/live.css';
+@import 'pages/landing.css';
+@import 'pages/music.css';
+@import 'pages/biog.css';
+@import 'pages/phone-biog.css';
 
-@import "components/container.css";
-@import "components/buttons.css";
-@import "components/cards.css";
-@import "components/header.css";
-@import "components/footer.css";
-@import "components/social.css";
-@import "components/media-queries.css";
-@import "components/carousel-img.css";
+@import 'components/container.css';
+@import 'components/buttons.css';
+@import 'components/cards.css';
+@import 'components/header.css';
+@import 'components/footer.css';
+@import 'components/social.css';
+@import 'components/media-queries.css';
+@import 'components/carousel-img.css';
 
 body {
   font-family: 'Roboto', sans-serif;
   /*font-family: 'Palanquin', sans-serif;*/
   background-color: black;
   width: 100vw;
+  background-image: url('../../images/backgrounds/bg_4.jpg');
 }
 
 .row {
@@ -28,16 +29,17 @@ body {
 h1 {
   /*font-size: 2.5rem;*/
   font-family: 'Palanquin', sans-serif;
-  color: #D7D344;
-  text-align:center;
+  color: #d7d344;
+  text-align: center;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-family: 'Palanquin', sans-serif;
-  color: #D7D344;
+  color: #d7d344;
 }
 
-h2{
+h2 {
   font-size: 48px;
 }
 
@@ -46,7 +48,7 @@ h3 {
 }
 
 p {
-  color:  white;
+  color: white;
   font-size: 1.6rem;
 }
 /* anchors */
@@ -56,13 +58,10 @@ a {
 }
 a:link,
 a:visited {
-  color: #D7D344;
+  color: #d7d344;
 }
 
 a:hover,
 a:active {
   color: white;
-  }
-
-
-
+}

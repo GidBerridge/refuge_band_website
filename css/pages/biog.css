@@ -1,13 +1,11 @@
-
 .carousel-item {
-  height:  100vh;
+  height: 100vh;
   min-height: 300px;
   background: no-repeat scroll center scroll;
-  -webkit-background-size:  cover;
-  background-size:  cover;
+  -webkit-background-size: cover;
+  background-size: cover;
   z-index: 1;
 }
-
 
 .biog-bg {
   background-color: rgba(0, 0, 0, 0.4);
@@ -21,55 +19,58 @@
   -ms-animation: fadeIn 4s;
 }
 
-
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.carousel-caption {
-    /*position: absolute;*/
-    z-index: 1;
-    /*display:table;*/
-    margin: auto;
-    font-size: 1.8em;
-
-}
-
-.carousel-caption div {
-    display:table-cell;
-    vertical-align: middle;
-    text-align:center;
-}
-
-.biog-text, .biog-text-member {
-  /*position: absolute;*/
-  /*bottom: 15%;*/
+.biog-text,
+.biog-text-member {
   margin: auto;
   font-size: 1.8em;
 }
 
-.band-member{
+.band-member {
   position: absolute;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 6em;
@@ -77,12 +78,3 @@
   top: 35%;
   left: 12%;
 }
-
-
-
-
-
-
-
-
-
