@@ -1,6 +1,5 @@
 footer {
   width: 100%;
-  background-color: black;
   display: flex;
   justify-content: center;
   z-index: 100;
@@ -38,6 +37,7 @@ address {
   border: 2px solid var(--color-primary);
   border-radius: 10px;
   margin: 1rem 0;
+  background-color: black;
 }
 
 .icon {
