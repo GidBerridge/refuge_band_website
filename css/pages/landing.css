@@ -4,13 +4,8 @@
 
 .landing-container {
   width: 100%;
-  background-color: #fff;
   display: flex;
   justify-content: center;
-}
-
-.landing-container img {
-  width: 100%;
 }
 
 .hero {
@@ -21,12 +16,37 @@
   flex: 1;
 }
 
+.hero img {
+  width: 100%;
+}
+
 .news {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   border-radius: 15px;
   position: absolute;
   bottom: 10%;
-
   background-color: rgba(30, 30, 30, 0.3);
 }
+
+.news-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .news {
+    opacity: 0;
+  }
+  .hero {
+    margin: 4rem 0;
+  }
+}
+
+@media only screen and (min-width: 651px) {
+  .news-phone {
+    display: none;
+  }
