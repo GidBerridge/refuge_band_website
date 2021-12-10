@@ -28,11 +28,13 @@ function mobileMenu() {
     navMenu.classList.toggle("active");
 }
 
-const navLink = document.querySelectorAll(".nav-link");
-
-navLink.forEach(n => n.addEventListener("click", closeMenu));
+const navLink = document.querySelectorAll(".nav-item");
 
 function closeMenu() {
+  console.log('test');
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
