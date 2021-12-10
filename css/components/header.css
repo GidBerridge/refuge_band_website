@@ -23,20 +23,79 @@
 /* Navbar */
 
 .navbar {
+  width: 100%;
+}
+
+.nav-menu {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex: 1;
+  z-index: 50;
 }
 
 .nav-text {
   font-size: 1.3em;
 }
 
+/*  hamburger */
+
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--color-primary);
+}
+
 @media only screen and (max-width: 750px) {
-  .navbar {
-    display: none;
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 6rem;
+    flex-direction: column;
+    background-color: var(--color-black);
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
   }
+
+  .nav-menu.active {
+    right: 0%;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  /* .nav-menu {
+    display: none;
+  } */
   .logo {
     margin: 0.5rem;
     max-width: 10rem;

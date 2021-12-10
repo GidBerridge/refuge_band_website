@@ -1,6 +1,7 @@
 :root {
   --color-primary: #d7d344;
   --color-white: #fff;
+  --color-black: #000;
 }
 
 body {
@@ -54,4 +55,8 @@ a:visited {
 a:hover,
 a:active {
   color: var(--color-white);
+}
+
+ul {
+  text-decoration: none;
 }
