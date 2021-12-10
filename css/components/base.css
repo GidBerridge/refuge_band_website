@@ -1,0 +1,57 @@
+:root {
+  --color-primary: #d7d344;
+  --color-white: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Palanquin', sans-serif;*/
+  background-color: black;
+  width: 100vw;
+  background-image: url('../../images/backgrounds/bg_4.jpg');
+}
+
+.row {
+  justify-content: space-evenly;
+  flex-basis: 100%;
+}
+
+h1 {
+  /*font-size: 2.5rem;*/
+  font-family: 'Palanquin', sans-serif;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-family: 'Palanquin', sans-serif;
+  color: var(--color-primary);
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  color: var(--color-white);
+  font-size: 1.6rem;
+}
+/* anchors */
+
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color: var(--color-primary);
+}
+
+a:hover,
+a:active {
+  color: var(--color-white);
+}
