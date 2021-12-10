@@ -42,9 +42,10 @@
 
 .hamburger {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 1rem;
   right: 1.5rem;
+  z-index: 1000;
 }
 
 .bar {
@@ -68,6 +69,16 @@
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
+    padding: 1rem;
+  }
+
+  .nav-item {
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .nav-item a {
+    color: var(--color-primary) !important;
   }
 
   .nav-menu.active {
