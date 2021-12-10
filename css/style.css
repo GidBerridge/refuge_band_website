@@ -5,6 +5,7 @@
 @import 'pages/phone-biog.css';
 
 @import 'components/container.css';
+@import 'components/base.css';
 @import 'components/buttons.css';
 @import 'components/cards.css';
 @import 'components/header.css';
@@ -29,14 +30,14 @@ body {
 h1 {
   /*font-size: 2.5rem;*/
   font-family: 'Palanquin', sans-serif;
-  color: #d7d344;
+  color: var(--color-primary);
   text-align: center;
 }
 
 h2,
 h3 {
   font-family: 'Palanquin', sans-serif;
-  color: #d7d344;
+  color: var(--color-primary);
 }
 
 h2 {
@@ -48,7 +49,7 @@ h3 {
 }
 
 p {
-  color: white;
+  color: var(--color-white);
   font-size: 1.6rem;
 }
 /* anchors */
@@ -58,10 +59,10 @@ a {
 }
 a:link,
 a:visited {
-  color: #d7d344;
+  color: var(--color-primary);
 }
 
 a:hover,
 a:active {
-  color: white;
+  color: var(--color-white);
 }
