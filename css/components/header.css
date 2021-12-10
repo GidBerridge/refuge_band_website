@@ -7,7 +7,6 @@
   z-index: 100;
   font-family: 'Roboto', sans-serif;
   width: 100%;
-  position: absolute;
 }
 
 .logo {
@@ -43,7 +42,7 @@
     max-width: 10rem;
   }
   .header {
-    justify-content: center;
+    justify-content: space-between;
   }
 }
 
