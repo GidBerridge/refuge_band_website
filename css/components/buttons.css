@@ -10,11 +10,14 @@
 .btn-buy:hover,
 .btn-buy:active {
   color: #161dff;
-  }
+}
 
 .btn-box {
-  display:  flex;
+  display: flex;
   justify-content: space-evenly;
-  /*background-color: purple;*/
-  flex-basis:  100%;
+  flex-basis: 100%;
+}
+
+.btn {
+  color: var(--color-black) !important;
 }

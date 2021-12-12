@@ -6,8 +6,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  /*font-family: 'Palanquin', sans-serif;*/
-  background-color: black;
   width: 100vw;
   background-image: url('../../images/backgrounds/bg_4.jpg');
 }
