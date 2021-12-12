@@ -1,15 +1,10 @@
-.live_bg{
-  background-image: url('../../images/backgrounds/bg_4.jpg');
+.live_bg {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-.live-title{
+.live-title {
   text-align: center;
   margin: 20% 0 5% 0;
 }
-
-
-
-
