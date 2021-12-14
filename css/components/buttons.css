@@ -10,6 +10,7 @@
 .btn-buy:hover,
 .btn-buy:active {
   color: #161dff;
+  transform: scale(1.2);
 }
 
 .btn-box {
