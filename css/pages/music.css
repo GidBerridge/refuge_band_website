@@ -1,4 +1,4 @@
-.music_bg{
+.music_bg {
   background-image: none;
   background-color: black;
   background-size: 100%;
@@ -6,7 +6,6 @@
   justify-content: space-between;
   background-repeat: no-repeat;
 }
-
 
 .music-title {
   display: flex;
@@ -23,24 +22,22 @@
   margin-bottom: 10%;
 }
 
-
 .youtube-vid {
-  margin: 30% 0;
-  border: solid 1px #D7D344;
+  border: solid 1px #d7d344;
+  margin: 15% 0;
 }
 
-.tune{
+.tune {
   text-align: center;
   padding: 5px 0;
   width: 100%;
 }
 
 .media-box {
-  display:  flex;
+  display: flex;
   justify-content: center;
   flex-basis: 100%;
   padding: 2em;
   flex-direction: column;
   align-items: center;
 }
-
