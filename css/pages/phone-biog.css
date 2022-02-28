@@ -1,21 +1,20 @@
-.thumbnail{
+.thumbnail {
   font-size: 1.8rem;
-  color: #D7D344;
+  color: #d7d344;
   text-align: center;
-  /*background-color: green;*/
+  /* margin-top: 10rem; */
 }
 
-.thumbnail img{
+.thumbnail img {
   height: 10rem;
   width: 10 rem;
 }
 
-.thumbnail p{
-
+.thumbnail p {
   color: white;
 }
 
-.thumb-title{
+.thumb-title {
   font-size: 2.5rem;
-  color: #D7D344;
+  color: #d7d344;
 }

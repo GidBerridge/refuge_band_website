@@ -1,6 +1,15 @@
 {
+  "name": "refuge_site",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "dependencies": {
     "node-sass": "^7.0.0",
     "typed.js": "^2.0.12"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.2"
   }
 }
