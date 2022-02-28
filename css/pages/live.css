@@ -4,7 +4,16 @@
   align-content: center;
 }
 
-.live-title {
+.section-title {
   text-align: center;
   margin: 20% 0 5% 0;
+}
+
+.flyer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.flyer img {
+  width: 70vw;
 }

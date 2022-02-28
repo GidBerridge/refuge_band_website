@@ -7,15 +7,7 @@
   background-repeat: no-repeat;
 }
 
-.music-title {
-  display: flex;
-  /*background-color: purple;*/
-  justify-content: center;
-  margin-top: 20%;
-}
-
 .music-card {
-  /*background-color: green;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
