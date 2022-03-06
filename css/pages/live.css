@@ -1,12 +1,6 @@
-.live_bg {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
 .section-title {
   text-align: center;
-  margin: 20% 0 5% 0;
+  margin: 10% 0 5% 0;
 }
 
 .flyer {
