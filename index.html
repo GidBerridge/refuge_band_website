@@ -165,12 +165,12 @@
           <!-- vocals -->
 
           
-          <div class="thumb-title d-flex justify-content-center mt-5">Joe 🏴󠁧󠁢󠁷󠁬󠁳󠁿</div>
-          <div>
+          <div class="thumb-title d-flex justify-content-center mt-5 ">Joe 🏴󠁧󠁢󠁷󠁬󠁳󠁿</div>
+          <div class="members">
             <div class="d-flex justify-content-center">
               <img src="./images/vocals_crop.jpeg">
             </div>
-          <p class="mt-2">The boss, our frontman, songwriter, the booming voice, and the driving force behind the band.</p>
+            <p class="mt-2 members-text">The boss, our frontman, songwriter, the booming voice, and the driving force behind the band.</p>
           </div>
 
           <!-- guitar -->
@@ -254,8 +254,11 @@
     </section>
 
   </footer>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-
+       <script>$('.members').hover(function(){
+                $('.members-text').css('opacity', '1');
+              });</script>
       <script type="text/javascript" src="index.js"></script>
 
 

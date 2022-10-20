@@ -9,8 +9,18 @@
   width: 10 rem;
 }
 
-.thumbnail p {
+.thumbnail img:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.members-text {
   color: white;
+  opacity: 0;
 }
 
 .thumb-title {
