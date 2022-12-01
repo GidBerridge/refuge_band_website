@@ -39,20 +39,21 @@ address {
 }
 
 .icon {
-  width: 3rem;
-  margin: 1rem;
+  width: 1.6rem;
 }
 
 .icon img {
   width: 100%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (min-width: 767px) {
   .social {
     padding: 1rem 2%;
     font-size: 1.4rem;
   }
+
   .icon {
+    width: 3rem;
     margin: 0.5rem;
   }
 }
