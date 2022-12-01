@@ -88,17 +88,17 @@
   margin: 1rem;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
   .news {
     opacity: 0;
   }
 
-  .hero {
+  /* .hero {
     margin: 4rem 0;
-  }
+  } */
 }
 
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 768px) {
   .news-phone {
     display: none;
   }
