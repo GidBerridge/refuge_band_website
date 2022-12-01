@@ -26,8 +26,8 @@
   top: 0px;
   z-index: 100;
   scale: 0.8;
-  animation: changeScale 2.5s linear;
-  animation-delay: 2s;
+  animation: changeScale 4.5s linear;
+
 }
 
 @keyframes changeOpacity {
@@ -42,6 +42,10 @@
 
 @keyframes changeScale {
   0% {
+    scale: 0;
+  }
+
+  50% {
     scale: 0;
   }
 
