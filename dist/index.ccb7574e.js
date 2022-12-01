@@ -6,7 +6,7 @@ const handleHover = function(e) {
         const link = e.target;
         const siblings = link.closest('.navbar').querySelectorAll('.nav-text');
         siblings.forEach((el)=>{
-            if (el !== link) el.style.opacity = this;
+            if (el !== link) el.style.opacity = this, el.style.transition = 1;
         });
     }
 };
