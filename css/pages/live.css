@@ -16,18 +16,18 @@
 
 .gig_montage {
   z-index: 1;
-  animation: changeOpacity 2.5s linear;
-  animation-delay: 2s;
-  opacity: 0.6;
+  animation: changeOpacity 2.5s linear forwards;
+
+  /* opacity: 0.6; */
 }
 
 .next_gig {
   position: absolute;
   top: 0px;
   z-index: 100;
-  scale: 0.8;
-  animation: changeScale 4.5s linear;
-
+  scale: 0;
+  animation: changeScale 2.5s linear forwards;
+  animation-delay: 2s;
 }
 
 @keyframes changeOpacity {
@@ -45,9 +45,9 @@
     scale: 0;
   }
 
-  50% {
+  /* 50% {
     scale: 0;
-  }
+  } */
 
   100% {
     scale: 0.8;
