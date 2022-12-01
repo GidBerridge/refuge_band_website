@@ -7,11 +7,48 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
+
 .flyer img {
   width: 70vw;
 }
 
+.gig_montage {
+  z-index: 1;
+  animation: changeOpacity 2.5s linear;
+  animation-delay: 2s;
+  opacity: 0.6;
+}
+
+.next_gig {
+  position: absolute;
+  top: 0px;
+  z-index: 100;
+  scale: 0.8;
+  animation: changeScale 2.5s linear;
+  animation-delay: 2s;
+}
+
+@keyframes changeOpacity {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes changeScale {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 0.8;
+  }
+}
 .bg {
   display: flex;
 }
@@ -55,6 +92,7 @@
   .news {
     opacity: 0;
   }
+
   .hero {
     margin: 4rem 0;
   }
@@ -66,6 +104,41 @@
   }
 }
 
+.fadeUp {
+  -webkit-animation-name: fadeUp;
+  animation-name: fadeUp;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  opacity: 0;
+  transition: 0.3s ease-in;
+}
+
+.unhide {
+  opacity: 1;
+  transition: 0.3s ease-in;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
 .music_bg {
   background-image: none;
   background-color: black;
@@ -373,6 +446,7 @@ ul {
 
 .navbar {
   width: 100%;
+  z-index: 1000;
 }
 
 .nav-menu {
@@ -380,7 +454,7 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   flex: 1;
-  z-index: 50;
+  z-index: 5000;
   padding-right: 3rem;
 }
 
@@ -465,6 +539,7 @@ ul {
     margin: 0.5rem;
     max-width: 10rem;
   }
+
   .header {
     justify-content: space-between;
   }
@@ -475,7 +550,6 @@ ul {
     font-size: 1.8em;
   }
 }
-
 footer {
   width: 100%;
   display: flex;

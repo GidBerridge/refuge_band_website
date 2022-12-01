@@ -7,7 +7,45 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
+
 .flyer img {
   width: 70vw;
+}
+
+.gig_montage {
+  z-index: 1;
+  animation: changeOpacity 2.5s linear;
+  animation-delay: 2s;
+  opacity: 0.6;
+}
+
+.next_gig {
+  position: absolute;
+  top: 0px;
+  z-index: 100;
+  scale: 0.8;
+  animation: changeScale 2.5s linear;
+  animation-delay: 2s;
+}
+
+@keyframes changeOpacity {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes changeScale {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 0.8;
+  }
 }

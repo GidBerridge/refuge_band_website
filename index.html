@@ -63,7 +63,7 @@
 
   <!-- Landing page -->
 
-  <section class="bg" id="home">
+  <section class="bg section section--hidden" id="home">
     <div class="landing-container">
       <div class="hero">
         <img src="images/band_colour_2b.jpg">
@@ -92,27 +92,18 @@
   <!-- Live Page -->
   
   <div class="container">
-    <section id="live">  
+    <section id="live" class="section section--hidden">  
       <div class="section-title mb-5">
         <h2>Upcoming gigs</h2>
       </div>
       <div class="flyer">
-        <img src="images/volk.jpg" alt="Volk gig flyer">
-        
+        <img src="images/volk.jpg" alt="Volk gig flyer" class="next_gig">
+        <img src="https://refuge-images.s3.amazonaws.com/gig_flyers/montage_images/gig_montage_pt.jpg"
+        alt="gig flyer"  
+        class='gig_montage'
+        />
 
       </div>
-
-      <!-- <div class="row">
-        <div class="card-product col-xs-10 col-md-6">
-          <div class="card-product-infos">
-            <h2>Islington O2 London N1</h2>
-            <p><strong>Saturday 5th March 2022</strong></p>
-          </div>
-          <div class="btn-box col-xs-2 col-md-4">
-            <a href="https://www.ents24.com/london-events/o2-academy-islington/toploader/6334036" target="_blank" class="btn btn-warning btn-buy">Buy Tickets</a>
-          </div>
-        </div>
-      </div> -->
     </section>
 
 
@@ -120,7 +111,7 @@
 <!-- Music Page -->
 
 
-    <section id="music">      
+    <section id="music" class="section section--hidden">      
       <div class="section-title"><h2>Listen</h2></div>
       <div class="media-box">
         <div class="music-card">
@@ -155,7 +146,7 @@
 
 <!-- Biog Page -->
 
-    <section id="biog">
+    <section id="biog" class="section section--hidden">
 
       <!-- Phone & tablet biog -->
       <div class="row">
@@ -201,6 +192,7 @@
 
           
             <div class="thumb-title d-flex justify-content-center mt-5">Ike 🇳🇬</div>
+            
             <div>
               <div class="d-flex justify-content-center">
                 <img src="./images/bass_2_crop.jpeg">

@@ -34,7 +34,6 @@ function mobileMenu() {
 }
 const navLink = document.querySelectorAll(".nav-item");
 function closeMenu() {
-    // console.log('test');
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
@@ -56,5 +55,25 @@ const headerObserver = new IntersectionObserver(stickyNav, {
     rootMargin: `${navHeight}px`
 });
 headerObserver.observe(header);
+// reveal sections
+function revealSections() {
+    const allSections = document.querySelectorAll('.section');
+    console.log('revealSections');
+    const revealSection = function(entries, observer) {
+        const [entry] = entries;
+        if (!entry.isIntersecting) return;
+        entry.target.classList.remove('section--hidden');
+        entry.target.classList.add('fadeUp');
+        observer.unobserve(entry.target);
+    };
+    const sectionObserver = new IntersectionObserver(revealSection, {
+        root: null,
+        threshold: 0.15
+    });
+    allSections.forEach(function(section) {
+        sectionObserver.observe(section);
+    });
+}
+revealSections();
 
 //# sourceMappingURL=index.ccb7574e.js.map
