@@ -55,8 +55,10 @@
 
 .landing-container {
   width: 100%;
+  height: calc(100vh - 4rem);
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .hero {
@@ -88,19 +90,29 @@
   margin: 1rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .news {
     opacity: 0;
   }
 
-  /* .hero {
-    margin: 4rem 0;
-  } */
 }
 
+
+
 @media only screen and (min-width: 768px) {
-  .news-phone {
+  /* .news-phone {
     display: none;
+  } */
+
+  .landing-container {
+    height: calc(100vh - 6rem);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .landing-container {
+    height: calc(100vh - 9rem);
   }
 }
 
