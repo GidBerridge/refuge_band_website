@@ -1,5 +1,5 @@
 .bg {
-  display: flex;
+  /* display: flex; */
 }
 
 .landing-container {
@@ -11,11 +11,11 @@
 }
 
 .hero {
-  display: flex;
+  /* display: flex;
   position: relative;
   justify-content: center;
   align-items: flex-end;
-  flex: 1;
+  flex: 1; */
 }
 
 .hero img {
@@ -49,9 +49,6 @@
 
 
 @media only screen and (min-width: 768px) {
-  /* .news-phone {
-    display: none;
-  } */
 
   .landing-container {
     height: calc(100vh - 6rem);
