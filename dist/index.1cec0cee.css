@@ -49,10 +49,6 @@
     scale: 0.8;
   }
 }
-.bg {
-  /* display: flex; */
-}
-
 .landing-container {
   width: 100%;
   height: calc(100vh - 4rem);
@@ -62,11 +58,7 @@
 }
 
 .hero {
-  /* display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: flex-end;
-  flex: 1; */
+  animation: changeInvert 4s linear infinite alternate;
 }
 
 .hero img {
@@ -131,6 +123,24 @@
 
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes changeInvert {
+  /* 0% {
+    filter: invert(0%);
+  }
+
+  100% {
+    filter: invert(100%);
+  } */
+
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
   }
 }
 
