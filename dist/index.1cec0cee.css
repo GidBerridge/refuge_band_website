@@ -434,7 +434,6 @@ ul {
 .logo {
   box-sizing: border-box;
   max-width: 18rem;
-  margin: 0.5em;
 }
 
 .logo img {
@@ -491,7 +490,7 @@ ul {
   background-color: var(--color-primary);
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 767px) {
   .nav-menu {
     position: fixed;
     right: -100%;
@@ -536,7 +535,6 @@ ul {
   }
 
   .logo {
-    margin: 0.5rem;
     max-width: 10rem;
   }
 
