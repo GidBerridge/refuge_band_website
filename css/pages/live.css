@@ -8,6 +8,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  background-color: #000000;
 }
 
 .flyer img {
@@ -17,8 +18,7 @@
 .gig_montage {
   z-index: 1;
   animation: changeOpacity 2.5s linear forwards;
-
-  /* opacity: 0.6; */
+  width: cover;
 }
 
 .next_gig {
@@ -44,10 +44,6 @@
   0% {
     scale: 0;
   }
-
-  /* 50% {
-    scale: 0;
-  } */
 
   100% {
     scale: 0.8;
