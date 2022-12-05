@@ -12,7 +12,7 @@
 }
 
 .flyer img {
-  width: 70vw;
+  width: 100%;
 }
 
 .gig_montage {
@@ -50,7 +50,7 @@
   }
 }
 .landing-container {
-  width: 100%;
+  /* width: 100%; */
   height: calc(100vh - 4rem);
   display: flex;
   justify-content: center;
@@ -58,11 +58,12 @@
 }
 
 .hero {
-  animation: changeInvert 4s linear infinite alternate;
+  animation: changeInvert 2s linear infinite alternate;
 }
 
 .hero img {
   width: 100%;
+
 }
 
 .news {
@@ -465,6 +466,7 @@ ul {
 .navbar {
   width: 100%;
   z-index: 1000;
+  /* min-height: 6rem; */
 }
 
 .nav-menu {
